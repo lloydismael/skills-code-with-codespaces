@@ -1,11 +1,7 @@
 {
-  {
-  "name": "Universal - Latest",
-  "image": "mcr.microsoft.com/devcontainers/universal:latest"
-}
-  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "name": "Universal - Latest",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "customizations": {
     "vscode": {
       "extensions": [
